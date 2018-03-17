@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="472.0" prefWidth="655.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="metroux.FXMLDocumentController">
+    <children>
+      <ScrollPane fx:id="album_list" prefHeight="438.0" prefWidth="655.0" scaleZ="2.0" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <HBox fx:id="music_control" alignment="CENTER_RIGHT" fillHeight="false" layoutX="14.0" layoutY="468.0" prefHeight="40.0" prefWidth="200.0" spacing="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Button fx:id="stop_button" mnemonicParsing="false" text="Stop" />
+            <Button fx:id="pause_button" mnemonicParsing="false" text="Pause" />
+            <Button fx:id="play_button" mnemonicParsing="false" text="Play" />
+         </children>
+         <padding>
+            <Insets left="40.0" right="40.0" />
+         </padding></HBox>
+    </children>
+</AnchorPane>
